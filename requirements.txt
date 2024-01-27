@@ -1,2 +1,16 @@
-# requirements.txt
+#requirements.txt
 snowflake-connector-python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
