@@ -63,7 +63,7 @@ def get_fruit_load_list():
       my_cur.execute("SELECT * from fruit_load_list")
       return my_cur.fetchall()
 
-streamlit.stop()
+#streamlit.stop()
 # allow the end user to add a fruit to the list
 
 def insert_row_snowflake(new_fruit):
@@ -85,7 +85,7 @@ if streamlit.button('Get Fruit Load List'):
   my_data_rows = get_fruit_load_list()
   streamlit.dataframe(my_data_rows)
 
-streamlit.stop()
+# streamlit.stop()
 
 #Text box 2
 def insert_row_snowflake(new_fruit):
